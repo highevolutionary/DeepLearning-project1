@@ -1,0 +1,22 @@
+[
+  {
+    "name": "mlp_sgd",
+    "best_valid_acc": 0.9584,
+    "model_path": "saved_models\\best_model_mlp_sgd.pickle"
+  },
+  {
+    "name": "cnn_sgd",
+    "best_valid_acc": 0.9695,
+    "model_path": "saved_models\\best_model_cnn_sgd.pickle"
+  },
+  {
+    "name": "cnn_momentum_multistep",
+    "best_valid_acc": 0.9783,
+    "model_path": "saved_models\\best_model_cnn_momentum_multistep.pickle"
+  },
+  {
+    "name": "cnn_l2",
+    "best_valid_acc": 0.9728,
+    "model_path": "saved_models\\best_model_cnn_l2.pickle"
+  }
+]
