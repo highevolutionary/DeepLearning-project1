@@ -113,7 +113,7 @@ def make_experiments():
                         'scheduler': None,
                 },
                 {
-                        'name': 'cnn_momentum_multistep',
+                        'name': 'cnn_momentum',
                         'model': cnn_momentum,
                         'optimizer': nn.optimizer.MomentGD(init_lr=0.02, model=cnn_momentum, mu=0.9),
                         'scheduler': None,
@@ -128,14 +128,6 @@ def make_experiments():
 
 
 experiments = make_experiments()
-for exp in experiments:
-        if exp['name'] == 'cnn_momentum_multistep':
-                exp['scheduler'] = nn.lr_scheduler.MultiStepLR(
-                        optimizer=exp['optimizer'],
-                        milestones=[100, 200],
-                        gamma=0.5
-                )
-
 results = []
 best_score = -1.0
 best_model_file = None

@@ -4,6 +4,6 @@ validation: 10000
 epochs: 5
 mlp_sgd: best_valid_acc=0.9584, model=saved_models\best_model_mlp_sgd.pickle
 cnn_sgd: best_valid_acc=0.9695, model=saved_models\best_model_cnn_sgd.pickle
-cnn_momentum_multistep: best_valid_acc=0.9783, model=saved_models\best_model_cnn_momentum_multistep.pickle
+cnn_momentum: best_valid_acc=0.9806, model=saved_models\best_model_cnn_momentum.pickle
 cnn_l2: best_valid_acc=0.9728, model=saved_models\best_model_cnn_l2.pickle
-best_overall: saved_models\best_model_cnn_momentum_multistep.pickle, best_valid_acc=0.9783
+best_overall: saved_models\best_model_cnn_momentum.pickle, best_valid_acc=0.9806

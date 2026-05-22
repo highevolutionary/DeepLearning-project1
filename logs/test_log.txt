@@ -1,5 +1,5 @@
 MLP + SGD: 0.9596 (.\saved_models\best_model_mlp_sgd.pickle)
 CNN + SGD: 0.9689 (.\saved_models\best_model_cnn_sgd.pickle)
-CNN + Momentum + MultiStepLR: 0.9783 (.\saved_models\best_model_cnn_momentum_multistep.pickle)
+CNN + Momentum: 0.9801 (.\saved_models\best_model_cnn_momentum.pickle)
 CNN + L2: 0.9754 (.\saved_models\best_model_cnn_l2.pickle)
-Best overall: 0.9783 (.\saved_models\best_model.pickle)
+Best overall: 0.9801 (.\saved_models\best_model.pickle)

@@ -32,7 +32,7 @@ sys.stdout = Tee(sys.stdout, _log_file)
 MODEL_FILES = [
     ("MLP + SGD", r".\saved_models\best_model_mlp_sgd.pickle"),
     ("CNN + SGD", r".\saved_models\best_model_cnn_sgd.pickle"),
-    ("CNN + Momentum + MultiStepLR", r".\saved_models\best_model_cnn_momentum_multistep.pickle"),
+    ("CNN + Momentum", r".\saved_models\best_model_cnn_momentum.pickle"),
     ("CNN + L2", r".\saved_models\best_model_cnn_l2.pickle"),
     ("Best overall", r".\saved_models\best_model.pickle"),
 ]

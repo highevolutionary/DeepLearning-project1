@@ -138,77 +138,66 @@ epoch: 4, iteration: 781, step: 3909
 Finished cnn_sgd, best validation accuracy: 0.9695
 Saved as: saved_models\best_model_cnn_sgd.pickle
 ================================================================================
-Start training: cnn_momentum_multistep
+Start training: cnn_momentum
 epoch: 0, iteration: 0, step: 0
 [Train] loss: 2.481930, score: 0.109375
 [Dev] loss: 2.365272, score: 0.124900
 best accuracy performance has been updated: 0.00000 --> 0.12490
 epoch: 0, iteration: 100, step: 100
 [Train] loss: 0.151102, score: 0.968750
-[Dev] loss: 0.368908, score: 0.889800
-best accuracy performance has been updated: 0.12490 --> 0.88980
+[Dev] loss: 0.367986, score: 0.890300
+best accuracy performance has been updated: 0.12490 --> 0.89030
 epoch: 0, iteration: 200, step: 200
-[Train] loss: 0.247240, score: 0.921875
-[Dev] loss: 0.263996, score: 0.922500
-best accuracy performance has been updated: 0.88980 --> 0.92250
+[Train] loss: 0.271392, score: 0.906250
+[Dev] loss: 0.252680, score: 0.926100
+best accuracy performance has been updated: 0.89030 --> 0.92610
 epoch: 0, iteration: 300, step: 300
-[Train] loss: 0.201977, score: 0.937500
-[Dev] loss: 0.228554, score: 0.932100
-best accuracy performance has been updated: 0.92250 --> 0.93210
+[Train] loss: 0.175271, score: 0.953125
+[Dev] loss: 0.193600, score: 0.942100
+best accuracy performance has been updated: 0.92610 --> 0.94210
 epoch: 0, iteration: 400, step: 400
-[Train] loss: 0.147268, score: 0.968750
-[Dev] loss: 0.212826, score: 0.937700
-best accuracy performance has been updated: 0.93210 --> 0.93770
+[Train] loss: 0.087242, score: 0.968750
+[Dev] loss: 0.155865, score: 0.955200
+best accuracy performance has been updated: 0.94210 --> 0.95520
 epoch: 0, iteration: 500, step: 500
-[Train] loss: 0.213519, score: 0.953125
-[Dev] loss: 0.198384, score: 0.942100
-best accuracy performance has been updated: 0.93770 --> 0.94210
+[Train] loss: 0.188369, score: 0.968750
+[Dev] loss: 0.131144, score: 0.959300
+best accuracy performance has been updated: 0.95520 --> 0.95930
 epoch: 0, iteration: 600, step: 600
-[Train] loss: 0.486818, score: 0.875000
-[Dev] loss: 0.180330, score: 0.947800
-best accuracy performance has been updated: 0.94210 --> 0.94780
+[Train] loss: 0.408086, score: 0.890625
+[Dev] loss: 0.111212, score: 0.966400
+best accuracy performance has been updated: 0.95930 --> 0.96640
 epoch: 0, iteration: 700, step: 700
-[Train] loss: 0.216883, score: 0.953125
-[Dev] loss: 0.167477, score: 0.951400
-best accuracy performance has been updated: 0.94780 --> 0.95140
+[Train] loss: 0.137077, score: 0.953125
+[Dev] loss: 0.117018, score: 0.965100
 epoch: 0, iteration: 781, step: 781
-[Train] loss: 0.396355, score: 0.937500
-[Dev] loss: 0.162177, score: 0.953600
-best accuracy performance has been updated: 0.95140 --> 0.95360
-best accuracy performance has been updated: 0.95360 --> 0.95420
-best accuracy performance has been updated: 0.95420 --> 0.95880
-best accuracy performance has been updated: 0.95880 --> 0.96000
-best accuracy performance has been updated: 0.96000 --> 0.96130
-best accuracy performance has been updated: 0.96130 --> 0.96340
-best accuracy performance has been updated: 0.96340 --> 0.96390
-best accuracy performance has been updated: 0.96390 --> 0.96620
+[Train] loss: 0.320646, score: 0.937500
+[Dev] loss: 0.099869, score: 0.971100
+best accuracy performance has been updated: 0.96640 --> 0.97110
+best accuracy performance has been updated: 0.97110 --> 0.97120
+best accuracy performance has been updated: 0.97120 --> 0.97140
+best accuracy performance has been updated: 0.97140 --> 0.97200
+best accuracy performance has been updated: 0.97200 --> 0.97410
+best accuracy performance has been updated: 0.97410 --> 0.97560
 epoch: 1, iteration: 781, step: 1563
-[Train] loss: 0.093494, score: 1.000000
-[Dev] loss: 0.107864, score: 0.969600
-best accuracy performance has been updated: 0.96620 --> 0.96960
-best accuracy performance has been updated: 0.96960 --> 0.97040
-best accuracy performance has been updated: 0.97040 --> 0.97110
-best accuracy performance has been updated: 0.97110 --> 0.97160
+[Train] loss: 0.023957, score: 1.000000
+[Dev] loss: 0.075428, score: 0.977700
+best accuracy performance has been updated: 0.97560 --> 0.97770
+best accuracy performance has been updated: 0.97770 --> 0.97810
 epoch: 2, iteration: 781, step: 2345
-[Train] loss: 0.034916, score: 1.000000
-[Dev] loss: 0.092778, score: 0.971800
-best accuracy performance has been updated: 0.97160 --> 0.97180
-best accuracy performance has been updated: 0.97180 --> 0.97270
-best accuracy performance has been updated: 0.97270 --> 0.97390
-best accuracy performance has been updated: 0.97390 --> 0.97440
-best accuracy performance has been updated: 0.97440 --> 0.97630
+[Train] loss: 0.014236, score: 1.000000
+[Dev] loss: 0.075616, score: 0.978000
+best accuracy performance has been updated: 0.97810 --> 0.97970
+best accuracy performance has been updated: 0.97970 --> 0.98000
+best accuracy performance has been updated: 0.98000 --> 0.98060
 epoch: 3, iteration: 781, step: 3127
-[Train] loss: 0.026331, score: 1.000000
-[Dev] loss: 0.077833, score: 0.976700
-best accuracy performance has been updated: 0.97630 --> 0.97670
-best accuracy performance has been updated: 0.97670 --> 0.97730
-best accuracy performance has been updated: 0.97730 --> 0.97800
-best accuracy performance has been updated: 0.97800 --> 0.97830
+[Train] loss: 0.018241, score: 1.000000
+[Dev] loss: 0.076977, score: 0.975600
 epoch: 4, iteration: 781, step: 3909
-[Train] loss: 0.047390, score: 1.000000
-[Dev] loss: 0.073764, score: 0.977300
-Finished cnn_momentum_multistep, best validation accuracy: 0.9783
-Saved as: saved_models\best_model_cnn_momentum_multistep.pickle
+[Train] loss: 0.111965, score: 0.937500
+[Dev] loss: 0.076594, score: 0.979300
+Finished cnn_momentum, best validation accuracy: 0.9806
+Saved as: saved_models\best_model_cnn_momentum.pickle
 ================================================================================
 Start training: cnn_l2
 epoch: 0, iteration: 0, step: 0
@@ -276,6 +265,6 @@ epoch: 4, iteration: 781, step: 3909
 Finished cnn_l2, best validation accuracy: 0.9728
 Saved as: saved_models\best_model_cnn_l2.pickle
 ================================================================================
-Best overall model: saved_models\best_model_cnn_momentum_multistep.pickle
-Best overall validation accuracy: 0.9783
+Best overall model: saved_models\best_model_cnn_momentum.pickle
+Best overall validation accuracy: 0.9806
 Copied best overall model back to ./saved_models/best_model.pickle
